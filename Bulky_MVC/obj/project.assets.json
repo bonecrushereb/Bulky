@@ -995,11 +995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bennolan/projects/Bulky-MVC/Bulky-MVC.csproj",
+      "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky_MVC/Bulky-MVC.csproj",
       "projectName": "Bulky-MVC",
-      "projectPath": "/Users/bennolan/projects/Bulky-MVC/Bulky-MVC.csproj",
+      "projectPath": "/Users/bennolan/projects/Bulky/Bulky_MVC/Bulky-MVC.csproj",
       "packagesPath": "/Users/bennolan/.nuget/packages/",
-      "outputPath": "/Users/bennolan/projects/Bulky-MVC/obj/",
+      "outputPath": "/Users/bennolan/projects/Bulky/Bulky_MVC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/bennolan/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bennolan/projects/Bulky/Bulky_MVC/Bulky-MVC.csproj": {}
+    "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {}
   },
   "projects": {
-    "/Users/bennolan/projects/Bulky/Bulky_MVC/Bulky-MVC.csproj": {
+    "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky_MVC/Bulky-MVC.csproj",
-        "projectName": "Bulky-MVC",
-        "projectPath": "/Users/bennolan/projects/Bulky/Bulky_MVC/Bulky-MVC.csproj",
+        "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj",
+        "projectName": "Bulky.Utility",
+        "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj",
         "packagesPath": "/Users/bennolan/.nuget/packages/",
-        "outputPath": "/Users/bennolan/projects/Bulky/Bulky_MVC/obj/",
+        "outputPath": "/Users/bennolan/projects/Bulky/Bulky.Utility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bennolan/.nuget/NuGet/NuGet.Config"
@@ -40,22 +40,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.9, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[7.0.4, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -68,9 +52,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

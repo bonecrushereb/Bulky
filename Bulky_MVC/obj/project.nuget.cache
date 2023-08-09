@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cWajL8QZYjJkjDbqPTtRqLGx3+LOgpJbUQtxs+hW1eNhEWqOTKspTNSyNolqruMpynewa5Szh24D7V/5mPjhTw==",
+  "dgSpecHash": "oTXm21hWMckGubO/E/IdjqfOk1cj7OKFY0nuA8np/wACdvcMQC1FGCezGHu2m1V7JM8By/cL9uWiMnyMdNUjjQ==",
   "success": true,
-  "projectFilePath": "/Users/bennolan/projects/Bulky-MVC/Bulky-MVC.csproj",
+  "projectFilePath": "/Users/bennolan/projects/Bulky/Bulky_MVC/Bulky-MVC.csproj",
   "expectedPackageFiles": [
     "/Users/bennolan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore/7.0.9/microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
