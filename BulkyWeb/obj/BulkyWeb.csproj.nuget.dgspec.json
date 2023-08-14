@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj": {}
+    "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj": {}
   },
   "projects": {
-    "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj": {
+    "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
-        "projectName": "Bulky.DataAccess",
-        "projectPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
+        "projectUniqueName": "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj",
+        "projectName": "BulkyWeb",
+        "projectPath": "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj",
         "packagesPath": "/Users/bennolan/.nuget/packages/",
-        "outputPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/obj/",
+        "outputPath": "/Users/bennolan/projects/Bulky/BulkyWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bennolan/.nuget/NuGet/NuGet.Config"
@@ -43,15 +43,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.9, )"
             }
           },
           "imports": [
@@ -66,6 +64,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
