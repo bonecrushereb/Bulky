@@ -1,0 +1,12 @@
+/Users/bennolan/projects/Bulky/Bulky.Utility/bin/Debug/net8.0/Bulky.Utility.deps.json
+/Users/bennolan/projects/Bulky/Bulky.Utility/bin/Debug/net8.0/Bulky.Utility.dll
+/Users/bennolan/projects/Bulky/Bulky.Utility/bin/Debug/net8.0/Bulky.Utility.pdb
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.AssemblyInfoInputs.cache
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.AssemblyInfo.cs
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.csproj.CoreCompileInputs.cache
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.sourcelink.json
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.dll
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/refint/Bulky.Utility.dll
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/Bulky.Utility.pdb
+/Users/bennolan/projects/Bulky/Bulky.Utility/obj/Debug/net8.0/ref/Bulky.Utility.dll

@@ -4,14 +4,93 @@
     "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj": {}
   },
   "projects": {
-    "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj": {
+    "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj",
-        "projectName": "BulkyWeb",
-        "projectPath": "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj",
+        "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
+        "projectName": "Bulky.DataAccess",
+        "projectPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
         "packagesPath": "/Users/bennolan/.nuget/packages/",
-        "outputPath": "/Users/bennolan/projects/Bulky/BulkyWeb/obj/",
+        "outputPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bennolan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj": {
+                "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj"
+              },
+              "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
+                "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj",
+        "projectName": "Bulky.Models",
+        "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj",
+        "packagesPath": "/Users/bennolan/.nuget/packages/",
+        "outputPath": "/Users/bennolan/projects/Bulky/Bulky.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bennolan/.nuget/NuGet/NuGet.Config"
@@ -40,16 +119,132 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj",
+        "projectName": "Bulky.Utility",
+        "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj",
+        "packagesPath": "/Users/bennolan/.nuget/packages/",
+        "outputPath": "/Users/bennolan/projects/Bulky/Bulky.Utility/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bennolan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj",
+        "projectName": "BulkyWeb",
+        "projectPath": "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj",
+        "packagesPath": "/Users/bennolan/.nuget/packages/",
+        "outputPath": "/Users/bennolan/projects/Bulky/BulkyWeb/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bennolan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj": {
+                "projectPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             }
           },
           "imports": [
