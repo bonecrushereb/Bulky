@@ -10,3 +10,4 @@
 /Users/bennolan/projects/Bulky/Bulky.Models/obj/Debug/net8.0/refint/Bulky.Models.dll
 /Users/bennolan/projects/Bulky/Bulky.Models/obj/Debug/net8.0/Bulky.Models.pdb
 /Users/bennolan/projects/Bulky/Bulky.Models/obj/Debug/net8.0/ref/Bulky.Models.dll
+/Users/bennolan/projects/Bulky/Bulky.Models/obj/Debug/net8.0/Bulky.Models.csproj.AssemblyReference.cache

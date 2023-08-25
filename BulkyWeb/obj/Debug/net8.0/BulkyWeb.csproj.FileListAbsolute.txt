@@ -263,3 +263,5 @@
 /Users/bennolan/projects/Bulky/BulkyWeb/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/bennolan/projects/Bulky/BulkyWeb/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/bennolan/projects/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cs
+/Users/bennolan/projects/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/bennolan/projects/Bulky/BulkyWeb/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
