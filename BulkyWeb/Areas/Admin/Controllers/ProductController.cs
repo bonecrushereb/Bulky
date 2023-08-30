@@ -60,6 +60,16 @@ namespace BulkyWeb.Areas.Admin.Controllers
                                     + Path.GetExtension(file.FileName);
                     string productPath = Path.Combine(wwwRootPath, @"images/product/");
 
+                      using (var fileStream = new FileStream(Path
+                                                        .Combine(productPath, fileName),
+                                                        FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
+
+                    productVM.Product.ImgUrl = @"\images\product\" + fileName;
+
+
                     if(!string.IsNullOrEmpty(productVM.Product.ImgUrl))
                     {
                         var oldImgPath = 
@@ -71,13 +81,6 @@ namespace BulkyWeb.Areas.Admin.Controllers
                         }
                     }
                  
-                    using (var fileStream = new FileStream(Path
-                                                        .Combine(productPath, fileName),
-                                                        FileMode.Create))
-                    {
-                        file.CopyTo(fileStream);
-                    }
-                    productVM.Product.ImgUrl = @"\images\product\" + fileName;
                 }
 
                 if(productVM.Product.Id == 0)
