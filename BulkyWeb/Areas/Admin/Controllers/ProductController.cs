@@ -58,7 +58,18 @@ namespace BulkyWeb.Areas.Admin.Controllers
                 {
                     string fileName = Guid.NewGuid().ToString() 
                                     + Path.GetExtension(file.FileName);
-                    string productPath = Path.Combine(wwwRootPath, @"images/product/");
+                    string productPath = Path.Combine(wwwRootPath, @"images/product");
+
+                    if(!string.IsNullOrEmpty(productVM.Product.ImgUrl))
+                    {
+                        //delete old image
+                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImgUrl.TrimStart('\\'));
+
+                        if(System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
 
                       using (var fileStream = new FileStream(Path
                                                         .Combine(productPath, fileName),
@@ -68,19 +79,6 @@ namespace BulkyWeb.Areas.Admin.Controllers
                     }
 
                     productVM.Product.ImgUrl = @"\images\product\" + fileName;
-
-
-                    if(!string.IsNullOrEmpty(productVM.Product.ImgUrl))
-                    {
-                        var oldImgPath = 
-                            Path.Combine(wwwRootPath, productVM.Product.ImgUrl.TrimStart('\\'));
-
-                        if(System.IO.File.Exists(oldImgPath)) 
-                        {
-                            System.IO.File.Delete(oldImgPath);
-                        }
-                    }
-                 
                 }
 
                 if(productVM.Product.Id == 0)
