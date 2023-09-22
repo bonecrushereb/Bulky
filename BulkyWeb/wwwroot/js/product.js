@@ -43,7 +43,7 @@ function Delete(url) {
             url: url,
             type: 'DELETE',
             success: function(data) {
-                dataTable.ajax.reload();
+                $('#tbldata').DataTable().ajax.reload();
                 toastr.success(data.message);
             }
         })

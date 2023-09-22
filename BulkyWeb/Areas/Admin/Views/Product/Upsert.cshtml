@@ -99,14 +99,14 @@
 </div>
 
 @section Scripts{
-    @* <script>
+    <script>
         tinymce.init({
         selector: 'textarea',
         forced_root_block : 'p',
         plugins: 'anchor autolink charmap codesample emoticons link lists media searchreplace table visualblocks wordcount checklist casechange export formatpainter pageembed permanentpen footnotes advtemplate advtable advcode editimage tableofcontents mergetags powerpaste tinymcespellchecker autocorrect a11ychecker typography inlinecss',
         toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link media table mergetags | align lineheight | checklist numlist bullist indent outdent | removeformat'
         });
-    </script> *@
+    </script>
     @{
         <partial name="_ValidationScriptsPartial" />
     }
