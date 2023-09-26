@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EQWLipEaq8LLQGUOHwLYZzLalMkFiw0vsqPFQ3Zf+EACCb3tN/6K/bqo22ofljy2NsBAiSf2hml1X+pObbqNBA==",
+  "dgSpecHash": "oJ7ahe42vGiH8SvB+3dab9bZfkG5ZLNhzbzWwknHxUw0u7FEqCYUN0KYTARvbUhiTH3XwRdGVS/8BK8uwZHO7w==",
   "success": true,
   "projectFilePath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -38,7 +38,7 @@
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.11/microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.11/microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
-    "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.design/7.0.10/microsoft.entityframeworkcore.design.7.0.10.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.design/7.0.11/microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.11/microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

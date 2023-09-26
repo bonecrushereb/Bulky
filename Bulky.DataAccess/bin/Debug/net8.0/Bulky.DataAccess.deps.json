@@ -12,7 +12,7 @@
           "Bulky.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore": "7.0.11",
-          "Microsoft.EntityFrameworkCore.Design": "7.0.10",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4"
         },
         "runtime": {
@@ -265,7 +265,7 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/7.0.11": {},
-      "Microsoft.EntityFrameworkCore.Design/7.0.10": {
+      "Microsoft.EntityFrameworkCore.Design/7.0.11": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.11",
@@ -274,8 +274,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.36204"
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.40906"
           }
         }
       },
@@ -1402,12 +1402,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/7.0.11",
       "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/7.0.10": {
+    "Microsoft.EntityFrameworkCore.Design/7.0.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZDdJ2aAE529A1zd3sEvszADRCiJmlOKxc0WlhS+NIhSs68NESAApPZL4uHXrIk0vb7SBRnNPYPfOhASWf9dahg==",
-      "path": "microsoft.entityframeworkcore.design/7.0.10",
-      "hashPath": "microsoft.entityframeworkcore.design.7.0.10.nupkg.sha512"
+      "sha512": "sha512-DaykA+XkNNiznnJq8HWVl4jpBycL9/W8NkonoBz7eIrxfU9Q4zH4iPztlvOkJugYCNPS29frPnju3RY72FoPNQ==",
+      "path": "microsoft.entityframeworkcore.design/7.0.11",
+      "hashPath": "microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.11": {
       "type": "package",

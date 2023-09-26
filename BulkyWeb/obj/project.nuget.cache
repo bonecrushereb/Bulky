@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vEFW4URe6DDIHqEQ9aaxM0HsVp4I2CdyDrEXICweiEvRkjg6N9p1sVQIX+vyFJQGtMMmZyodKRcaT8PLZbvgHg==",
+  "dgSpecHash": "UuMF3yyeCfq6mSJjYTDramprkv08UsTFXnH8AWmK2PxBg/pNtVLftnzklJFjyj1Bz3295Zc1qG+CEPP6vmb71A==",
   "success": true,
   "projectFilePath": "/Users/bennolan/projects/Bulky/BulkyWeb/BulkyWeb.csproj",
   "expectedPackageFiles": [
@@ -108,10 +108,10 @@
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.11/microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.11/microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
-    "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.design/7.0.10/microsoft.entityframeworkcore.design.7.0.10.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.design/7.0.11/microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.11/microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.10/microsoft.entityframeworkcore.sqlserver.7.0.10.nupkg.sha512",
-    "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.10/microsoft.entityframeworkcore.tools.7.0.10.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.11/microsoft.entityframeworkcore.tools.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

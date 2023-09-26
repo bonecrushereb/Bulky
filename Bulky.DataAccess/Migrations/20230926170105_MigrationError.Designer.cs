@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Bulky.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230921163913_ExtendIdentityUser")]
-    partial class ExtendIdentityUser
+    [Migration("20230926170105_MigrationError")]
+    partial class MigrationError
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -351,12 +351,10 @@ namespace Bulky.DataAccess.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("character varying(128)");
+                        .HasColumnType("text");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("character varying(128)");
+                        .HasColumnType("text");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("text");
@@ -393,12 +391,10 @@ namespace Bulky.DataAccess.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("character varying(128)");
+                        .HasColumnType("text");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("character varying(128)");
+                        .HasColumnType("text");
 
                     b.Property<string>("Value")
                         .HasColumnType("text");

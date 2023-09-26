@@ -595,11 +595,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/7.0.10": {
+      "Microsoft.EntityFrameworkCore.Design/7.0.11": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.11",
           "Microsoft.Extensions.DependencyModel": "7.0.0",
           "Mono.TextTemplating": "2.2.1"
         },
@@ -3161,10 +3161,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/7.0.10": {
-      "sha512": "ZDdJ2aAE529A1zd3sEvszADRCiJmlOKxc0WlhS+NIhSs68NESAApPZL4uHXrIk0vb7SBRnNPYPfOhASWf9dahg==",
+    "Microsoft.EntityFrameworkCore.Design/7.0.11": {
+      "sha512": "DaykA+XkNNiznnJq8HWVl4jpBycL9/W8NkonoBz7eIrxfU9Q4zH4iPztlvOkJugYCNPS29frPnju3RY72FoPNQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/7.0.10",
+      "path": "microsoft.entityframeworkcore.design/7.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3172,7 +3172,7 @@
         "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.7.0.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.7.0.11.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -7553,7 +7553,7 @@
       "Bulky.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore >= 7.0.11",
-      "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4"
     ]
   },
@@ -7616,7 +7616,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[7.0.10, )"
+            "version": "[7.0.11, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
