@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Bulky.Models;
 using Bulky.DataAccess.Repository.IRepository;
 using Bulky.DataAccess.Repository;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace BulkyWeb.Areas.Customer.Controllers;
 
@@ -24,10 +26,25 @@ public class HomeController : Controller
         return View(productList);
     }
 
-       public IActionResult Details(int productId)
+    public IActionResult Details(int productId)
     {
-        Product product = _unitOfWork.Product.Get(u=>u.Id==productId, includeProperties:"Category");
-        return View(product);
+        ShoppingCart cart = new() {
+            Product = _unitOfWork.Product.Get(u=>u.Id==productId, includeProperties:"Category"),
+            Count=1,
+            ProductId = productId
+        };
+        return View(cart);
+    }
+
+    [HttpPost]
+    [Authorize]
+    public IActionResult Details(ShoppingCart shoppingCart)
+    {
+        var claimsIdentity = (ClaimsIdentity)User.Identity;
+        var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+        
+
+        return View();
     }
 
 
