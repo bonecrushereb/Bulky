@@ -265,3 +265,16 @@
 /Users/bennolan/projects/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cs
 /Users/bennolan/projects/Bulky/BulkyWeb/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/bennolan/projects/Bulky/BulkyWeb/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.dll
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/refint/BulkyWeb.dll
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.pdb
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.csproj.AssemblyReference.cache
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.GeneratedMSBuildEditorConfig.editorconfig
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.AssemblyInfoInputs.cache
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.AssemblyInfo.cs
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.csproj.CoreCompileInputs.cache
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cs
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.MvcApplicationPartsAssemblyInfo.cache
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.RazorAssemblyInfo.cache
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.RazorAssemblyInfo.cs
+/Users/BenNolan/projects/dotNet/Bulky/BulkyWeb/obj/Debug/net8.0/BulkyWeb.sourcelink.json

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net7.0": {
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -2506,7 +2506,7 @@
       },
       "Bulky.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "Microsoft.Extensions.Identity.Stores": "7.0.11"
@@ -2520,7 +2520,7 @@
       },
       "Bulky.Utility/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": "7.0.11"
         },
@@ -7548,7 +7548,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net7.0": [
       "Bulky.Models >= 1.0.0",
       "Bulky.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.11",
@@ -7558,35 +7558,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/bennolan/.nuget/packages/": {}
+    "/Users/BenNolan/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
+      "projectUniqueName": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
       "projectName": "Bulky.DataAccess",
-      "projectPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
-      "packagesPath": "/Users/bennolan/.nuget/packages/",
-      "outputPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/obj/",
+      "projectPath": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
+      "packagesPath": "/Users/BenNolan/.nuget/packages/",
+      "outputPath": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/bennolan/.nuget/NuGet/NuGet.Config"
+        "/Users/BenNolan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj": {
-              "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj"
+            "/Users/BenNolan/projects/dotNet/Bulky/Bulky.Models/Bulky.Models.csproj": {
+              "projectPath": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.Models/Bulky.Models.csproj"
             },
-            "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
-              "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj"
+            "/Users/BenNolan/projects/dotNet/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
+              "projectPath": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.Utility/Bulky.Utility.csproj"
             }
           }
         }
@@ -7595,14 +7599,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -7639,7 +7640,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.1.23463.5/RuntimeIdentifierGraph.json"
       }
     }
   }

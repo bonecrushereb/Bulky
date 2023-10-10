@@ -18,3 +18,6 @@
 /Users/bennolan/projects/Bulky/Bulky.DataAccess/obj/Debug/net8.0/ref/Bulky.DataAccess.dll
 /Users/bennolan/projects/Bulky/Bulky.DataAccess/bin/Debug/net8.0/Bulky.DataAccess.runtimeconfig.json
 /Users/bennolan/projects/Bulky/Bulky.DataAccess/obj/Debug/net8.0/Bulky.DataAccess.genruntimeconfig.cache
+/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/obj/Debug/net8.0/Bulky.DataAccess.dll
+/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/obj/Debug/net8.0/refint/Bulky.DataAccess.dll
+/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/obj/Debug/net8.0/Bulky.DataAccess.pdb
