@@ -7558,23 +7558,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/BenNolan/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/bennolan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
+      "projectUniqueName": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
       "projectName": "Bulky.DataAccess",
-      "projectPath": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
-      "packagesPath": "/Users/BenNolan/.nuget/packages/",
-      "outputPath": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.DataAccess/obj/",
+      "projectPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
+      "packagesPath": "/Users/bennolan/.nuget/packages/",
+      "outputPath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/BenNolan/.nuget/NuGet/NuGet.Config"
+        "/Users/bennolan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -7586,11 +7582,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/BenNolan/projects/dotNet/Bulky/Bulky.Models/Bulky.Models.csproj": {
-              "projectPath": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.Models/Bulky.Models.csproj"
+            "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj": {
+              "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Models/Bulky.Models.csproj"
             },
-            "/Users/BenNolan/projects/dotNet/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
-              "projectPath": "/Users/BenNolan/projects/dotNet/Bulky/Bulky.Utility/Bulky.Utility.csproj"
+            "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
+              "projectPath": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj"
             }
           }
         }
@@ -7640,7 +7636,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.1.23463.5/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }
