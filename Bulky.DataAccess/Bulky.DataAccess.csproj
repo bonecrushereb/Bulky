@@ -7,18 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11"/>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4"/>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
+    <PackageReference Include="Stripe.net" Version="42.9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bulky.Models\Bulky.Models.csproj"/>
-    <ProjectReference Include="..\Bulky.Utility\Bulky.Utility.csproj"/>
+    <ProjectReference Include="..\Bulky.Models\Bulky.Models.csproj" />
+    <ProjectReference Include="..\Bulky.Utility\Bulky.Utility.csproj" />
   </ItemGroup>
 
 </Project>

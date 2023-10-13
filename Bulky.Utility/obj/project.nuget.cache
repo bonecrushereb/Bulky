@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yxZd8VhyQoAxjR6Jn90V9JUc1IauQhM7oeVAWXpsrpQRohrjO8SU+mkBGtZQUwEvR5gnwMGtOekNyP1KO11VHg==",
+  "dgSpecHash": "iS/vH8b48+WiQ34ICaYR9u+CI13aDVyeIjAWQIL6xa4kJabXBy3quT8TqcTms8yzcEb6X6oVNE7x41qAKrlZ4w==",
   "success": true,
   "projectFilePath": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,16 @@
     "/Users/bennolan/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
-    "/Users/bennolan/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "/Users/bennolan/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/stripe.net/42.9.0/stripe.net.42.9.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/system.configuration.configurationmanager/6.0.0/system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/system.security.accesscontrol/6.0.0/system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/system.security.permissions/6.0.0/system.security.permissions.6.0.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
