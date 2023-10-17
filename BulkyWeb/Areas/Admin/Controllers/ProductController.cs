@@ -1,4 +1,3 @@
-using System.ComponentModel.DataAnnotations;
 using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models;
 using Bulky.Models.ViewModels;
