@@ -14,7 +14,7 @@ namespace Bulky.Models
         public OrderHeader OrderHeader { get; set; }
         [Required]
         public int ProductId { get; set; }
-        [ForeignKey("ProudctId")]
+        [ForeignKey("ProductId")]
         [ValidateNever]
         public Product Product { get; set; }
         public int Count { get; set; }
