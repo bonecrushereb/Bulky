@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Microsoft.AspNetCore.Authentication.Facebook/7.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.11": {
         "type": "package",
         "compile": {
@@ -453,6 +469,21 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Authentication.Facebook/7.0.13": {
+      "sha512": "QQA3Srv6K4zxwHe1NLKAObLS877Jwlhj/HHniq8o0REmi2FbCsLz3AokHKK467l++1uxYWyymX9o5eN+7uPe1A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/7.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.7.0.13.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.11": {
       "sha512": "iRoT38bJQnYY7mow/J2hpWBp44KKNSXEncBW6JToZsexxq1ZDd6zRiLECUFkbgEgRli8Cs0Prn0va/liIq2y4Q==",
       "type": "package",
@@ -1203,6 +1234,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Microsoft.AspNetCore.Authentication.Facebook >= 7.0.13",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.11",
       "Stripe.net >= 42.9.0"
     ]
@@ -1244,6 +1276,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[7.0.13, )"
+          },
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
             "version": "[7.0.11, )"

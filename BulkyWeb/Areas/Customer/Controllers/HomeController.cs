@@ -22,6 +22,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+
         IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category");
         return View(productList);
     }
@@ -60,7 +61,7 @@ public class HomeController : Controller
             _unitOfWork.ShoppingCart.Add(shoppingCart);
             _unitOfWork.Save();
             HttpContext.Session.SetInt32(SD.SessionCart, 
-                _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId).Count);
+                _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
         }
 
         TempData["success"] = "Cart Updated Successfully";

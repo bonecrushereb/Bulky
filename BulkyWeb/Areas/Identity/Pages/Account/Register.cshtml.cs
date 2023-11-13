@@ -115,8 +115,6 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
             public IEnumerable<SelectListItem> CompanyList { get; set; }
 
         }
-
-
         public async Task OnGetAsync(string returnUrl = null)
         {
             if(!_roleManager.RoleExistsAsync(SD.Role_Customer).GetAwaiter().GetResult()) {
@@ -192,7 +190,11 @@ namespace BulkyWeb.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
+                        if(User.IsInRole(SD.Role_Admin)) {
+                            TempData["Success"] = "New User Created Successfully";
+                        } else {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                        }
                         return LocalRedirect(returnUrl);
                     }
                 }

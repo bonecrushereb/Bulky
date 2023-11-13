@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HUZrEJQ6LSC0RmPcsylG2DvDLzeD43NrOF14DpkKxdUxAgfjQwzJIVe3agn2r7SApkJx9TLG+qxqHN4M5V/Ilg==",
+  "dgSpecHash": "04BhJFDjOBLOCrtoKyOvBlRZ8/mhFAbpceFAnwWEGcwwe8TXg98sDPLQR7BkG9vUY2RfXz/NjtD87uxhr0n0Hg==",
   "success": true,
   "projectFilePath": "/Users/bennolan/projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.authentication.facebook/7.0.13/microsoft.aspnetcore.authentication.facebook.7.0.13.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.authorization.policy/2.2.0/microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.11/microsoft.aspnetcore.cryptography.internal.7.0.11.nupkg.sha512",

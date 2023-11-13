@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iS/vH8b48+WiQ34ICaYR9u+CI13aDVyeIjAWQIL6xa4kJabXBy3quT8TqcTms8yzcEb6X6oVNE7x41qAKrlZ4w==",
+  "dgSpecHash": "9gUtP4S2L/fwnYg2o5NWrwsXXTNjqEqCmD+wqpKeSi6WCBpwu2gdTWfpaVGP46shXkq4/veb7Vb/tawiDF33OQ==",
   "success": true,
   "projectFilePath": "/Users/bennolan/projects/Bulky/Bulky.Utility/Bulky.Utility.csproj",
   "expectedPackageFiles": [
+    "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.authentication.facebook/7.0.13/microsoft.aspnetcore.authentication.facebook.7.0.13.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.11/microsoft.aspnetcore.cryptography.internal.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.11/microsoft.aspnetcore.cryptography.keyderivation.7.0.11.nupkg.sha512",
     "/Users/bennolan/.nuget/packages/microsoft.aspnetcore.identity.ui/7.0.11/microsoft.aspnetcore.identity.ui.7.0.11.nupkg.sha512",
